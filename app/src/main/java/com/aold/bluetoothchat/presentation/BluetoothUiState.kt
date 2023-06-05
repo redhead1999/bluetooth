@@ -1,7 +1,7 @@
 package com.aold.bluetoothchat.presentation
 
-import com.aold.bluetoothchat.domain.BluetoothDevice
-import com.aold.bluetoothchat.domain.BluetoothMessage
+import com.aold.bluetoothchat.domain.chat.BluetoothDevice
+import com.aold.bluetoothchat.domain.chat.BluetoothMessage
 
 /**
  * @author Kirilin Yury on 05.06.2023.

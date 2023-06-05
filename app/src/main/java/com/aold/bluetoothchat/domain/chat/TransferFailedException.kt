@@ -1,4 +1,4 @@
-package com.aold.bluetoothchat.domain.util
+package com.aold.bluetoothchat.domain.chat
 
 import java.io.IOException
 

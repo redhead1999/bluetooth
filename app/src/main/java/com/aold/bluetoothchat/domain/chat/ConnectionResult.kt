@@ -1,6 +1,4 @@
-package com.aold.bluetoothchat.domain.util
-
-import com.aold.bluetoothchat.domain.BluetoothMessage
+package com.aold.bluetoothchat.domain.chat
 
 /**
  * @author Kirilin Yury on 03.06.2023.

@@ -1,4 +1,4 @@
-package com.aold.bluetoothchat.domain
+package com.aold.bluetoothchat.domain.chat
 
 /**
  * @author Kirilin Yury on 03.06.2023.

@@ -11,7 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aold.bluetoothchat.domain.BluetoothDevice
+import com.aold.bluetoothchat.domain.chat.BluetoothDevice
 import com.aold.bluetoothchat.presentation.BluetoothUiState
 
 /**

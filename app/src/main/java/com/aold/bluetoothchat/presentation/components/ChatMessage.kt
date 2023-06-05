@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.aold.bluetoothchat.domain.BluetoothMessage
+import com.aold.bluetoothchat.domain.chat.BluetoothMessage
 import com.aold.bluetoothchat.ui.theme.BluetoothChatTheme
 import com.aold.bluetoothchat.ui.theme.OldRose
 import com.aold.bluetoothchat.ui.theme.Vanilla

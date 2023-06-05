@@ -1,8 +1,8 @@
 package com.aold.bluetoothchat.data
 
 import android.bluetooth.BluetoothSocket
-import com.aold.bluetoothchat.domain.BluetoothMessage
-import com.aold.bluetoothchat.domain.util.TransferFailedException
+import com.aold.bluetoothchat.domain.chat.BluetoothMessage
+import com.aold.bluetoothchat.domain.chat.TransferFailedException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
@@ -41,7 +41,7 @@ class BluetoothDataTransferService(
         return withContext(Dispatchers.IO) {
             try {
                 socket.outputStream.write(bytes)
-            } catch(e: IOException) {
+            } catch (e: IOException) {
                 e.printStackTrace()
                 return@withContext false
             }

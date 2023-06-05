@@ -1,6 +1,6 @@
 package com.aold.bluetoothchat.data
 
-import com.aold.bluetoothchat.domain.BluetoothMessage
+import com.aold.bluetoothchat.domain.chat.BluetoothMessage
 
 /**
  * @author Kirilin Yury on 03.06.2023.

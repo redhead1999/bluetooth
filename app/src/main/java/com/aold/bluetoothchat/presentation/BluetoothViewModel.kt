@@ -2,9 +2,9 @@ package com.aold.bluetoothchat.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.aold.bluetoothchat.domain.BluetoothController
-import com.aold.bluetoothchat.domain.BluetoothDeviceDomain
-import com.aold.bluetoothchat.domain.util.ConnectionResult
+import com.aold.bluetoothchat.domain.chat.BluetoothController
+import com.aold.bluetoothchat.domain.chat.BluetoothDeviceDomain
+import com.aold.bluetoothchat.domain.chat.ConnectionResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*

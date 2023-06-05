@@ -4,7 +4,7 @@ import android.content.Context
 import android.os.Build
 import androidx.annotation.RequiresApi
 import com.aold.bluetoothchat.data.AndroidBluetoothController
-import com.aold.bluetoothchat.domain.BluetoothController
+import com.aold.bluetoothchat.domain.chat.BluetoothController
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -19,7 +19,6 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
-    @RequiresApi(Build.VERSION_CODES.M)
     @Provides
     @Singleton
     fun provideBluetoothController(@ApplicationContext context: Context): BluetoothController {
