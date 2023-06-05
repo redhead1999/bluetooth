@@ -2,7 +2,7 @@ package com.aold.bluetoothchat.data
 
 import android.bluetooth.BluetoothSocket
 import com.aold.bluetoothchat.domain.BluetoothMessage
-import com.aold.bluetoothchat.util.TransferFailedException
+import com.aold.bluetoothchat.domain.util.TransferFailedException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

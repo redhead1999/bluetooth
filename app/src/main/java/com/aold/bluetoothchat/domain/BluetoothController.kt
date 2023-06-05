@@ -1,6 +1,6 @@
 package com.aold.bluetoothchat.domain
 
-import com.aold.bluetoothchat.util.ConnectionResult
+import com.aold.bluetoothchat.domain.util.ConnectionResult
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow

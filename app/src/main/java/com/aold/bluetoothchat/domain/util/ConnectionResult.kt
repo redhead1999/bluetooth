@@ -1,4 +1,4 @@
-package com.aold.bluetoothchat.util
+package com.aold.bluetoothchat.domain.util
 
 import com.aold.bluetoothchat.domain.BluetoothMessage
 

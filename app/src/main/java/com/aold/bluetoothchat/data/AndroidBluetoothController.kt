@@ -15,7 +15,7 @@ import androidx.annotation.RequiresApi
 import com.aold.bluetoothchat.domain.BluetoothController
 import com.aold.bluetoothchat.domain.BluetoothDeviceDomain
 import com.aold.bluetoothchat.domain.BluetoothMessage
-import com.aold.bluetoothchat.util.ConnectionResult
+import com.aold.bluetoothchat.domain.util.ConnectionResult
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
@@ -27,6 +27,7 @@ import java.util.*
  * @author Kirilin Yury on 03.06.2023.
  */
 
+@RequiresApi(Build.VERSION_CODES.M)
 @SuppressLint("MissingPermission")
 class AndroidBluetoothController(
     private val context: Context

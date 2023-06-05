@@ -9,6 +9,7 @@ import android.os.Build
 /**
  * @author Kirilin Yury on 03.06.2023.
  */
+
 class BluetoothStateReceiver(
     private val onStateChanged: (isConnected: Boolean, BluetoothDevice) -> Unit
 ): BroadcastReceiver() {

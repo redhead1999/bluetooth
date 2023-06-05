@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.aold.bluetoothchat.domain.BluetoothController
 import com.aold.bluetoothchat.domain.BluetoothDeviceDomain
-import com.aold.bluetoothchat.util.ConnectionResult
+import com.aold.bluetoothchat.domain.util.ConnectionResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.*
